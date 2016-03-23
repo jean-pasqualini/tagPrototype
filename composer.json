@@ -1,0 +1,16 @@
+{
+    "name": "jean-pasqualini/tagprototype",
+    "description": "tag protoype",
+    "require": {
+        "artack/dom-query": "0.1.0",
+        "symfony/css-selector": "v2.8.0",
+        "cocur/slugify": "v1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini75@gmail.com"
+        }
+    ]
+}
