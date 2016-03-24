@@ -1,6 +1,24 @@
 {
-  "a" : {
-      "data-tag-page" : "#chapitre#:#sous-chapitre#:#sous-sous-chapitre#:#text#"
-   }
+  "types" : [
+    {
+      "type" : "link",
+      "selecteur" : "a"
+    }
+  ],
+  "firewall" : [
+    {
+      "pattern" : "/test",
+      "test" : {
+        "url" : "/test"
+      },
+      "description" : "les pages de tests",
+      "tags" : [{
+        "description" : "les liens",
+        "selecteur" : "a",
+        "attr" : {
+          "data-tag-page" : "#chapitre#:#sous-chapitre#:#sous-sous-chapitre#:#text#"
+        }
+      }]
+    }
+  ]
 }
-
