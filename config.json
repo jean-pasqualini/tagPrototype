@@ -16,7 +16,7 @@
         "description" : "les liens",
         "selecteur" : "a",
         "attr" : {
-          "data-tag-page" : "#chapitre#:#sous-chapitre#:#sous-sous-chapitre#:#text#"
+          "data-tag-click" : "#chapitre#:#sous-chapitre#:#sous-sous-chapitre#:#text#"
         }
       }]
     }
